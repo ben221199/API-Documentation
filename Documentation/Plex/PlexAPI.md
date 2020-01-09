@@ -216,3 +216,68 @@ Get `MediaProvider`s of the server.
 ### GET `/pms/system/library/sections` (only https://plex.tv)
 
 ?
+
+### /accounts
+
+### /accounts/{id}
+
+### /myplex/account
+
+### /myplex/refreshReachability
+
+### /updater/status
+
+### /player/proxy/poll
+
+### /sync/transcodeQueue
+
+### /playQueues
+
+### /status/sessions/background
+
+### /playlists
+
+### /playQueues/1
+
+### /playlists/1/items
+
+### /system/agents
+
+### /system/agents/com.plexapp.agents.none/config/1
+
+### /system/agents/contributors
+
+### /system/agents/attribution
+
+### /library/sections
+
+### /activities
+
+### /channels/all
+
+### /system/agents
+
+### /system/scanners/1
+
+### /services/browse
+
+### /services/browse/{base64}
+
+### /library/sections/prefs
+
+### /:/plugins/com.plexapp.agents.imdb/prefs
+
+### POST /library/sections
+
+#### URL Parameters
+
+| Name | Description | Required | Example |
+| --- | --- | --- | --- |
+| name | Name of the Library Section | ? | |
+| type | ? | ? | movie |
+| agent | Agent of the Library Section | ? | com.plexapp.agents.imdb |
+| scanner | Scanner of the Library Section | ? | Plex Movie Scanner |
+| language | Language | Language | en |
+| importFromiTunes | ? | ? | |
+| enableAutoPhotoTags | ? | ? | |
+| location | Location to scan media in | ? | |
