@@ -100,6 +100,29 @@ The API of Plex between the clients and servers.
 | token | string | Token to use on this Media Provider | |
 | types | string | ? | video,audio,photo |
 
+### Server
+
+#### Attributes
+
+| Name | Type | Description | Example |
+| --- | --- | --- | --- |
+| address | ? | ? | |
+| allLibraries | ? | ? | |
+| host | ? | ? | |
+| id | ? | ? | |
+| machineIdentifier | ? | ? | |
+| name | ? | ? | |
+| numLibraries | ? | ? | |
+| owned | ? | ? | |
+| pending | ? | ? | |
+| port | ? | ? | |
+| product | ? | ? | |
+| protocol | ? | ? | |
+| protocolCapabilities | ? | ? | |
+| protocolVersion | ? | ? | |
+| serverId | ? | ? | |
+| version | ? | ? | |
+
 ### SyncList
 
 #### Attributes
@@ -111,6 +134,56 @@ The API of Plex between the clients and servers.
 | version | ? | ? | |
 
 ## Routes
+
+### GET `/api/home`
+
+?
+
+### GET `/api/home/users`
+
+Get `User`s in your home.
+
+### POST `/api/home/users`
+
+Invite `User` to your home.
+
+#### URL Parameters
+
+| Name | Description | Required | Example |
+| --- | --- | --- | --- |
+| invitedEmail | ? | Yes | |
+
+### GET `/api/invites/requested`
+
+Get requested `Invite`s for your home.
+
+### GET `/api/invites/requests`
+
+Get requests to join another one's home.
+
+### GET `/api/users`
+
+Get `User`s and their shared `Server`s.
+
+### GET `/api/v2/authentications/providers`
+
+Get authentication providers (Google, Facebook, LastFM)
+
+### GET `/api/v2/shared_servers/{id}`
+
+?
+
+### POST `/api/v2/user/settings`
+
+Change settings for Plex Web.
+
+### GET `/api/v2/user/{hash}/settings/opt_outs`
+
+?
+
+### GET `/clients`
+
+?
 
 ### GET `/devices[.xml|.json]`
 
@@ -130,8 +203,16 @@ Get `MediaProvider`s of the server.
 
 ### GET `/pms` (only https://plex.tv)
 
+?
+
 ### GET `/pms/system` (only https://plex.tv)
+
+?
 
 ### GET `/pms/system/library` (only https://plex.tv)
 
+?
+
 ### GET `/pms/system/library/sections` (only https://plex.tv)
+
+?
