@@ -200,6 +200,10 @@ Get authentication providers (Google, Facebook, LastFM)
 
 ?
 
+### POST `/api/v2/users/signin`
+
+skipAuthentication (boolean)
+
 ### POST `/api/v2/user/settings`
 
 Change settings for Plex Web.
@@ -296,6 +300,8 @@ Get `MediaProvider`s of the server.
 
 ### /:/plugins/com.plexapp.agents.imdb/prefs
 
+### GET /monitoring/health?
+
 ### POST /library/sections
 
 #### Parameters
@@ -310,3 +316,7 @@ Get `MediaProvider`s of the server.
 | importFromiTunes | ? | ? | |
 | enableAutoPhotoTags | ? | ? | |
 | location | Location to scan media in | ? | |
+
+### [WebSocket] `/:/websockets/notifications`
+
+WebSocket for notifications
