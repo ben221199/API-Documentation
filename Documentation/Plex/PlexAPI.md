@@ -68,19 +68,19 @@ The API of Plex between the clients and servers.
 
 ## Routes
 
-### GET `/devices[.xml]` , `/devices.json` (Extensions work only on https://plex.tv)
+### GET `/devices[.xml|.json]`
 
 Get `Device`s.
 
-### GET `/devices/{id}[.xml]` , `/devices/{id}.json` (Extensions work only on https://plex.tv)
+### GET `/devices/{id}[.xml|.json]`
 
 Get `Device` by id.
 
-### DELETE `/devices/{id}[.xml]` , `/devices/{id}.json` (Extensions work only on https://plex.tv)
+### DELETE `/devices/{id}[.xml|.json]`
 
 Delete `Device` by id.
 
-### GET `/media/providers[.xml]` , `/media/providers.json` (Extensions work only on https://plex.tv)
+### GET `/media/providers[.xml|.json]`
 
 Get `MediaProvider`s of the server.
 
