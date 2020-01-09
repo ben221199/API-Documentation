@@ -37,6 +37,15 @@ The API of Plex between the clients and servers.
 | vendor | ? | Public address of the device | |
 | version | string | Version of the device | |
 
+### Home
+
+| Name | Type | Description | Example |
+| --- | --- | --- | --- |
+| guestEnabled | boolean | Is guest enabled? | |
+| guestUserID | int | User ID of the guest | |
+| id | int | ID of the home | |
+| name | string | Name of the home | |
+
 ### Hub
 
 The horizontal-scrolling bands like 'Recently added content' with arrows at the right top corner.
@@ -282,6 +291,8 @@ Get `MediaProvider`s of the server.
 ### /services/browse/{base64}
 
 ### /library/sections/prefs
+
+### GET /library/sections/all/refresh
 
 ### /:/plugins/com.plexapp.agents.imdb/prefs
 
