@@ -52,3 +52,14 @@ The API of Plex between the clients and servers.
 | updater | ? | | |
 | version | string | Version of the server | 1.18.3.2156-349e9837e |
 | voiceSearch | ? | | |
+
+### MediaProvider
+
+#### Attributes
+
+| Name | Type | Description | Example |
+| --- | --- | --- | --- |
+| identifier | string | ? | com.plexapp.plugins.library |
+| protocols | string | ? | stream |
+| title | string | ? | Bibliotheek |
+| types | string | ? | video,audio,photo |
