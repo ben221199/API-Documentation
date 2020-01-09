@@ -37,6 +37,24 @@ The API of Plex between the clients and servers.
 | vendor | ? | Public address of the device | |
 | version | string | Version of the device | |
 
+### Hub
+
+The horizontal-scrolling bands like 'Recently added content' with arrows at the right top corner.
+
+#### Attributes
+
+| Name | Type | Description | Example |
+| --- | --- | --- | --- |
+| hubIdentifier | ? | ? | photo.recent.5 |
+| hubKey | ? | ? | |
+| key | ? | ? | |
+| more | ? | ? | |
+| promoted | ? | ? | |
+| size | ? | ? | |
+| style | ? | ? | |
+| title | ? | ? | |
+| type | ? | ? | photo |
+
 ### MediaContainer
 
 #### Attributes
