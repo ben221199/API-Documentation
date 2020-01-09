@@ -59,7 +59,9 @@ The API of Plex between the clients and servers.
 
 | Name | Type | Description | Example |
 | --- | --- | --- | --- |
+| baseURL | string | Base URL of this Media Provider |  |
 | identifier | string | ? | com.plexapp.plugins.library |
 | protocols | string | ? | stream |
 | title | string | ? | Bibliotheek |
+| token | string | Token to use on this Media Provider | |
 | types | string | ? | video,audio,photo |
