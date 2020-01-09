@@ -65,3 +65,29 @@ The API of Plex between the clients and servers.
 | title | string | ? | Bibliotheek |
 | token | string | Token to use on this Media Provider | |
 | types | string | ? | video,audio,photo |
+
+## Routes
+
+### GET `/devices[.xml]` , `/devices.json` (Extensions work only on https://plex.tv)
+
+Get `Device`s.
+
+### GET `/devices/{id}[.xml]` , `/devices/{id}.json` (Extensions work only on https://plex.tv)
+
+Get `Device` by id.
+
+### DELETE `/devices/{id}[.xml]` , `/devices/{id}.json` (Extensions work only on https://plex.tv)
+
+Delete `Device` by id.
+
+### GET `/media/providers[.xml]` , `/media/providers.json` (Extensions work only on https://plex.tv)
+
+Get `MediaProvider`s of the server.
+
+### GET `/pms` (only https://plex.tv)
+
+### GET `/pms/system` (only https://plex.tv)
+
+### GET `/pms/system/library` (only https://plex.tv)
+
+### GET `/pms/system/library/sections` (only https://plex.tv)
