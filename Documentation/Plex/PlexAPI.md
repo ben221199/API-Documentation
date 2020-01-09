@@ -147,7 +147,7 @@ Get `User`s in your home.
 
 Invite `User` to your home.
 
-#### URL Parameters
+#### Parameters
 
 | Name | Description | Required | Example |
 | --- | --- | --- | --- |
@@ -269,7 +269,7 @@ Get `MediaProvider`s of the server.
 
 ### POST /library/sections
 
-#### URL Parameters
+#### Parameters
 
 | Name | Description | Required | Example |
 | --- | --- | --- | --- |
@@ -277,7 +277,7 @@ Get `MediaProvider`s of the server.
 | type | ? | ? | movie |
 | agent | Agent of the Library Section | ? | com.plexapp.agents.imdb |
 | scanner | Scanner of the Library Section | ? | Plex Movie Scanner |
-| language | Language | Language | en |
+| language | Language | ? | en |
 | importFromiTunes | ? | ? | |
 | enableAutoPhotoTags | ? | ? | |
 | location | Location to scan media in | ? | |
